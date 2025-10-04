@@ -8,8 +8,12 @@ html {
 body {
   font-size: 1.6rem;
   height: 100000px;
+  background-color: #fffcf4;
 }
 /* header  */
+.header.fixed {
+  z-index: 1;
+}
 a {
   text-decoration: none;
 }
@@ -76,4 +80,125 @@ header .btn-sign-up {
 }
 .header .action {
   margin-left: 49px;
+}
+.hero {
+  margin-top: 56px;
+}
+.cta-group a {
+  background-color: rgb(255, 140, 0);
+}
+main .body {
+  display: flex;
+  justify-content: space-between;
+}
+.media-block {
+  width: 570px;
+  height: 685px;
+  position: relative;
+}
+.content-block {
+  width: 470px;
+  height: 558px;
+}
+.hero .hero-summary {
+  width: 270px;
+  background-color: #fff;
+  border-radius: 12px;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  box-shadow: 0 15px 35px 5px rgba(0, 0, 0, 0.08);
+}
+.hero-summary .items {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+.hero-summary .items + .items {
+  margin-top: 15px;
+}
+.hero .media-block .img {
+  border-radius: 20px;
+}
+.hero-summary .icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff98e;
+}
+.hero-summary .icon2 {
+  background-color: #fcefff;
+}
+.hero-summary .icon2 {
+  background-color: #ebeaff;
+}
+.hero-summary .info {
+  margin-left: 16px;
+}
+.hero-summary .label {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.hero-summary .title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.hero .content-block .heading {
+  font-family: Sen;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 58px;
+  line-height: 68px;
+  letter-spacing: -2%;
+}
+.hero .content-block .desc {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.hero .cta-group {
+  display: flex;
+}
+.cta-group .watch-video {
+  margin-left: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.cta-group .watch-video .icon {
+  background-color: white;
+  padding: 10px;
+}
+.cta-group .watch-video span {
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px;
+}
+.hero .details-hero {
+  display: flex;
+}
+.hero .details-hero p + p {
+  margin-left: 50px;
+}
+.hero .details-hero strong {
+  font-size: 65px;
 }
