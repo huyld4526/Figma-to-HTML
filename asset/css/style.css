@@ -10,6 +10,21 @@ body {
   height: 100000px;
   background-color: #fffcf4;
 }
+:root {
+  --primary-color: #ffb900;
+}
+/* common thuộc tính chung */
+.heading-lv2 {
+  width: 351;
+  height: 48;
+  opacity: 1;
+  font-family: Sen;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -2%;
+}
 /* header  */
 .header.fixed {
   z-index: 1;
@@ -201,4 +216,43 @@ main .body {
 }
 .hero .details-hero strong {
   font-size: 65px;
+}
+/* popular  */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.popular .popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  height: 60px;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #5f5b53;
+}
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .controls {
+  margin-top: 16px;
+  display: flex;
+  gap: 18px;
+}
+.popular .controls .control-btn {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+.popular .controls .control-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
 }
