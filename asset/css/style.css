@@ -345,3 +345,71 @@ main .body {
 .popular .course-item .btn-book {
   border: none;
 }
+/* feedback  */
+/* block-right  */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background-color: #2e2100;
+}
+.feedback .feedback-item {
+  display: flex;
+}
+.feedback .feedback-item .info .avata {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.feedback .feedback-item .info .member-name {
+  margin-top: 18px;
+  font-family: Sen;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #f7f7f7;
+}
+.feedback .feedback-item .info .desc {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #bfbcb2;
+}
+.feedback .feedback-item .info .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+.feedback .feedback-item .info .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+  cursor: pointer;
+}
+.feedback .feedback-item .info .dot.active {
+  background-color: var(--primary-color);
+  cursor: default;
+}
+/* block-left  */
+.feedback .feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+.feedback .feedback-item .content blockquote {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Italic;
+  font-size: 2.6rem;
+  line-height: 4rem;
+  letter-spacing: 0%;
+
+  color: #ffffff;
+}
+.feedback .feedback-item .content img {
+  color: #634700;
+}
